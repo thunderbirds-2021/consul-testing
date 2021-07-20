@@ -8,3 +8,5 @@ spec:
       protocol: http
       services:
         - name: static-server
+          hosts:
+          - "*"
